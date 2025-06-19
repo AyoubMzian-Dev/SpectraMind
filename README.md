@@ -1,4 +1,4 @@
-# Spectrumic Mind
+# SpectraMind
 
 ## A Personal Platform for Philosophical and Scientific Exploration
 
