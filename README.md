@@ -4,17 +4,16 @@
 
 Spectrumic Mind is a web application designed to house my personal collection of philosophical insights, scientific explorations, and thought experiments. It’s a place where I can post articles, dive into intellectual debates, and reflect on the vast spectrum of knowledge that interests me.
 
-Built with modern technologies like Next.js, Node.js, Tailwind CSS, and MySQL, this platform offers a clean, responsive interface and a simple backend for easy content management.
+Built with modern technologies like Next.js, Tailwind CSS, Shadcn, and PostGres, this platform offers a clean, responsive interface and a simple backend for easy content management.
 
 ---
 
 ## Tech Stack
 
-- **Frontend:** Next.js (React Framework)  
+- **FullStack:** Next.js (React Framework)  
 - **Styling:** Tailwind CSS  
-- **Backend:** Node.js with Express  
-- **Database:** MySQL
-
+- **Database:** PostGres
+- **UI Library** Shadcn
 ---
 
 ## Features
@@ -22,7 +21,7 @@ Built with modern technologies like Next.js, Node.js, Tailwind CSS, and MySQL, t
 - **Personal Content Hub:** A space where I can post articles, essays, and research findings on topics related to philosophy and science.
 - **Simple, Minimalist UI:** A user-friendly interface powered by Tailwind CSS for an elegant and distraction-free reading experience.
 - **Interactive Features:** While primarily for personal use, the platform is designed to facilitate discussions, allowing others to engage with my content.
-- **Easy Content Management:** Admin (myself) can post, edit, and manage content easily, powered by Node.js and MySQL.
+- **Easy Content Management:** Admin (myself) can post, edit, and manage content easily, powered by Next.js and PostGres.
 
 ---
 
@@ -33,53 +32,38 @@ Built with modern technologies like Next.js, Node.js, Tailwind CSS, and MySQL, t
 Before you begin, make sure you have the following installed:
 
 - Node.js  
-- MySQL
+- PostGres
 
 ### Setup
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/spectrumic-mind.git
-    cd spectrumic-mind
+    https://github.com/AyoubMzian-Dev/SpectraMind.git
+    cd SpectraMind
     ```
 
 2. Install dependencies for both frontend and backend:
 
-    **Frontend:**
     ```bash
-    cd frontend
     npm install
     ```
 
-    **Backend:**
-    ```bash
-    cd ../backend
-    npm install
-    ```
 
-3. Set up your MySQL database:
+3. Set up your PostGres database:
 
-    Create a database in MySQL (e.g., `spectrumic_mind`) and configure your `.env` file with the database credentials. Example:
+    Create a database in PostGres (e.g., `SpectraMind`) and configure your `.env` file with the database credentials. Example:
     ```env
     DB_HOST=localhost
     DB_USER=root
     DB_PASS=yourpassword
-    DB_NAME=spectrumic_mind
+    DB_NAME=spectramind
     ```
 
-4. Run the backend:
+4. Run the App:
     ```bash
-    cd backend
     npm run dev
     ```
-
-5. Run the frontend:
-    ```bash
-    cd frontend
-    npm run dev
-    ```
-
-Now you should have both the frontend and backend running locally. You can start posting content and interacting with your platform!
+Now you should have the project running locally. You can start posting content and interacting with your platform!
 
 ---
 
